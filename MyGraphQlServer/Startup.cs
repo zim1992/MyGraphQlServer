@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GraphQL;
+using GraphQL.Server;
+using GraphQL.Server.Transports.AspNetCore;
+using GraphQL.Server.Transports.WebSockets;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Orders.Schema;
+using Orders.Services;
 
 namespace MyGraphQlServer
 {
@@ -15,6 +21,19 @@ namespace MyGraphQlServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IOrderService, OrderService>();
+            services.AddSingleton<ICustomerService, CustomerService>();
+            services.AddSingleton<OrderType>();
+            services.AddSingleton<CustomerType>();
+            services.AddSingleton<OrderStatusesEnum>();
+            services.AddSingleton<OrdersQuery>();
+            services.AddSingleton<OrdersSchema>();
+            services.AddSingleton<IDependencyResolver>(c =>
+                new FuncDependencyResolver(c.GetRequiredService));
+            services.AddGraphQL(options => { options.EnableMetrics = true; })
+                .AddWebSockets()
+                .AddDataLoader();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -25,7 +44,15 @@ namespace MyGraphQlServer
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) => { await context.Response.WriteAsync("Hello World!"); });
+            app.UseWebSockets();
+
+            app.UseGraphQLWebSockets<OrdersSchema>();
+            app.UseGraphQL<OrdersSchema>();
+            
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
         }
     }
 }

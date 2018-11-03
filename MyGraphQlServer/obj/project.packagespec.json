@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Corjan\\Documents\\RandomSolutions\\MyGraphQlServer\\Orders\\Orders.csproj": {
+            "projectPath": "C:\\Users\\Corjan\\Documents\\RandomSolutions\\MyGraphQlServer\\Orders\\Orders.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,9 +30,21 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
+        "GraphQL.Server.Transports.AspNetCore": {
+          "target": "Package",
+          "version": "[3.2.0, )"
+        },
+        "GraphQL.Server.Transports.WebSockets": {
+          "target": "Package",
+          "version": "[3.2.0, )"
+        },
         "Microsoft.AspNetCore.All": {
           "target": "Package",
           "version": "[2.0.8, )"
+        },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "[2.1.1, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",

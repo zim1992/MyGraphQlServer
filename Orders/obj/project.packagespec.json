@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Corjan\\Documents\\RandomSolutions\\MyGraphQlServer\\Orders\\Orders.csproj",
+    "projectName": "Orders",
+    "projectPath": "C:\\Users\\Corjan\\Documents\\RandomSolutions\\MyGraphQlServer\\Orders\\Orders.csproj",
+    "outputPath": "C:\\Users\\Corjan\\Documents\\RandomSolutions\\MyGraphQlServer\\Orders\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "GraphQL": {
+          "target": "Package",
+          "version": "[2.3.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "System.Reactive": {
+          "target": "Package",
+          "version": "[4.1.2, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
