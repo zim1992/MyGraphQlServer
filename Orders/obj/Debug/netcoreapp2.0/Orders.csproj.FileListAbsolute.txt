@@ -1,0 +1,9 @@
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\bin\Debug\netcoreapp2.0\Orders.deps.json
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\bin\Debug\netcoreapp2.0\Orders.dll
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\bin\Debug\netcoreapp2.0\Orders.pdb
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.csprojAssemblyReference.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.csproj.CoreCompileInputs.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.AssemblyInfoInputs.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.AssemblyInfo.cs
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.dll
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\Orders\obj\Debug\netcoreapp2.0\Orders.pdb

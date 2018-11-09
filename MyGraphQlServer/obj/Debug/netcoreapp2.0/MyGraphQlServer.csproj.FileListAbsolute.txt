@@ -1,0 +1,14 @@
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\MyGraphQlServer.deps.json
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\MyGraphQlServer.runtimeconfig.json
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\MyGraphQlServer.runtimeconfig.dev.json
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\MyGraphQlServer.dll
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\MyGraphQlServer.pdb
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.csprojAssemblyReference.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.csproj.CoreCompileInputs.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.AssemblyInfoInputs.cache
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.AssemblyInfo.cs
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.dll
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.pdb
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\Orders.dll
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\bin\Debug\netcoreapp2.0\Orders.pdb
+C:\Users\Corjan\Documents\RandomSolutions\MyGraphQlServer\MyGraphQlServer\obj\Debug\netcoreapp2.0\MyGraphQlServer.csproj.CopyComplete
