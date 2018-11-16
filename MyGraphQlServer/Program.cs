@@ -14,12 +14,17 @@ namespace MyGraphQlServer
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
-        }
+            var directory = Directory.GetCurrentDirectory();
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(directory)
+                .UseWebRoot(Path.Combine(directory, "public"))
+                .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
+
+            host.Run();
+        }
     }
 }

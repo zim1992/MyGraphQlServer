@@ -8,9 +8,12 @@ namespace Orders.Schema
     {
         public OrderType(ICustomerService customers)
         {
-            Field(o => o.Id);
-            Field(o => o.Name);
-            Field(o => o.Description);
+            Name = "Order";
+            Description = "This is an order from the customer";
+            
+            Field(o => o.Id).Description("Order Number");
+            Field(o => o.Name).Description("Name of the item");
+            Field(o => o.Description).Description("");
             Field<CustomerType>("customer", resolve: content => customers.GetCustomerByIdAsync(content.Source.CustomerId));
             Field(o => o.Created);
         }

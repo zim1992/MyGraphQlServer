@@ -3,7 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Example;
 using GraphQL;
 using GraphQL.Http;
 using GraphQL.Server.Transports.AspNetCore.Common;

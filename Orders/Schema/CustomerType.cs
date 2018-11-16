@@ -8,8 +8,10 @@ namespace Orders.Schema
     {
         public CustomerType()
         {
-            Field(c => c.Id);
-            Field(c => c.Name);
+            Name = "Customer";
+            Description = "These are the customers in the system"; 
+            Field(c => c.Id).Description("Customer Id");
+            Field(c => c.Name).Description("Customer Name");
 
         }
         
