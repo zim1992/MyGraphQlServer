@@ -7,6 +7,7 @@ using GraphQL.Http;
 using GraphQL.Server;
 using GraphQL.Server.Transports.AspNetCore;
 using GraphQL.Server.Transports.WebSockets;
+using GraphQL.Server.Ui.Playground;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -41,6 +42,13 @@ namespace MyGraphQlServer
             services.AddSingleton<ICustomerService, CustomerService>();
             
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            
+            services.AddGraphQL(_ =>
+                {
+                    _.EnableMetrics = true;
+                    _.ExposeExceptions = true;
+                })
+                .AddUserContextBuilder(httpContext => new GraphQlUserContext { User = httpContext.User });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,16 +60,12 @@ namespace MyGraphQlServer
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMiddleware<GraphQlMiddleware>(new GraphQLSettings
-            {
-                BuildUserContext = ctx => new GraphQlUserContext
-                {
-                    User = ctx.User
-                }
-            });
+            app.UseGraphQL<ISchema>();
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseGraphQLPlayground(new GraphQLPlaygroundOptions
+            {
+                Path = "/ui/playground"
+            });
 
         }
     }

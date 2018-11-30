@@ -95,6 +95,18 @@
           "lib/netstandard2.0/GraphQL.Server.Transports.WebSockets.dll": {}
         }
       },
+      "GraphQL.Server.Ui.Playground/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Server.Ui.Playground.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Server.Ui.Playground.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4933,6 +4945,17 @@
         "graphql.server.transports.websockets.3.2.0.nupkg.sha512",
         "graphql.server.transports.websockets.nuspec",
         "lib/netstandard2.0/GraphQL.Server.Transports.WebSockets.dll"
+      ]
+    },
+    "GraphQL.Server.Ui.Playground/3.2.0": {
+      "sha512": "m8AJx1sE+SGlTsp1tj+DD3S3YiZJL5XlUhUmyeWclQQkdDK5vigoVANwcDAUV55DnlxLZzLcHaGe7bfzaGpbWQ==",
+      "type": "package",
+      "path": "graphql.server.ui.playground/3.2.0",
+      "files": [
+        ".signature.p7s",
+        "graphql.server.ui.playground.3.2.0.nupkg.sha512",
+        "graphql.server.ui.playground.nuspec",
+        "lib/netstandard2.0/GraphQL.Server.Ui.Playground.dll"
       ]
     },
     "Libuv/1.10.0": {
@@ -12957,8 +12980,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "GraphQL.Server.Core >= 3.2.0",
       "GraphQL.Server.Transports.AspNetCore >= 3.2.0",
       "GraphQL.Server.Transports.WebSockets >= 3.2.0",
+      "GraphQL.Server.Ui.Playground >= 3.2.0",
       "Microsoft.AspNetCore.All >= 2.0.9",
       "Microsoft.AspNetCore.StaticFiles >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13010,11 +13035,19 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "GraphQL.Server.Core": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
           "GraphQL.Server.Transports.AspNetCore": {
             "target": "Package",
             "version": "[3.2.0, )"
           },
           "GraphQL.Server.Transports.WebSockets": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "GraphQL.Server.Ui.Playground": {
             "target": "Package",
             "version": "[3.2.0, )"
           },
@@ -13027,6 +13060,7 @@
             "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

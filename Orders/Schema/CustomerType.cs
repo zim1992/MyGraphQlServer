@@ -10,7 +10,7 @@ namespace Orders.Schema
         {
             Name = "Customer";
             Description = "These are the customers in the system"; 
-            Field(c => c.Id).Description("Customer Id");
+            Field(c => c.Id, type: typeof(IdGraphType)).Description("Customer Id");
             Field(c => c.Name).Description("Customer Name");
 
         }

@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46b93771-89fe-45f2-8dd3-58cd4b49924d" name="Default Changelist" comment="upgraded the version of asp">
-      <change afterPath="$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyGraphQlServer/public/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyGraphQlServer/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyGraphQlServer/public/style.css" afterDir="false" />
+    <list default="true" id="46b93771-89fe-45f2-8dd3-58cd4b49924d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyGraphQlServer/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyGraphQlServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyGraphQlServer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyGraphQlServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyGraphQlServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/MyGraphQlServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/MyGraphQlServer.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/MyGraphQlServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/Orders.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/Orders.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/Orders.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/bin/Debug/netcoreapp2.0/Orders.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/Debug/netcoreapp2.0/MyGraphQlServer.csprojAssemblyReference.cache" afterDir="false" />
@@ -25,14 +20,13 @@
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/MyGraphQlServer.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/MyGraphQlServer.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/MyGraphQlServer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/MyGraphQlServer.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/Schema/CustomerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/Schema/CustomerType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraphQlServer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/public/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyGraphQlServer/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orders/Models/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/Models/Order.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/Schema/OrderType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/Schema/OrderType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/Services/CustomerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/Services/CustomerService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/Services/OrderService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/bin/Debug/netcoreapp2.0/Orders.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/bin/Debug/netcoreapp2.0/Orders.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/bin/Debug/netcoreapp2.0/Orders.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/bin/Debug/netcoreapp2.0/Orders.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/obj/Debug/netcoreapp2.0/Orders.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/obj/Debug/netcoreapp2.0/Orders.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orders/obj/Debug/netcoreapp2.0/Orders.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/obj/Debug/netcoreapp2.0/Orders.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,30 +38,32 @@
     <session id="-1046975500">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="51" />
+          <entry key="cs" value="66" />
           <entry key="csproj" value="3" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="js" value="1" />
+          <entry key="json" value="1" />
           <entry key="sln" value="1" />
           <entry key="targets" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="51" />
+          <entry key="C#" value="66" />
           <entry key="Csproj" value="3" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="MsBuild targets file" value="1" />
           <entry key="Solution File" value="1" />
@@ -75,16 +71,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3368" />
+          <entry key="cs" value="3452" />
           <entry key="csproj" value="2" />
-          <entry key="txt" value="72" />
+          <entry key="json" value="4" />
+          <entry key="txt" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3368" />
+          <entry key="C#" value="3452" />
           <entry key="Csproj" value="2" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JSON" value="4" />
+          <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
     </session>
@@ -94,83 +92,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="419">
+              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
               <folding>
-                <marker date="1542381895338" expanded="false" signature="6:516" ph="..." />
-                <marker date="1542381895338" expanded="true" signature="543:2390" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="570:2388" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="585:800" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-                <marker date="1542381895338" expanded="true" signature="867:1678" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="1896:2382" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="1943:2064" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="2147:2299" ph="{...}" />
-                <marker date="1542381895338" expanded="true" signature="2230:2285" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="6:552" ph="..." />
+                <marker date="1543586127939" expanded="true" signature="579:2581" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="606:2579" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="621:836" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+                <marker date="1543586127939" expanded="true" signature="903:1999" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="1754:1881" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="2217:2573" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="2264:2385" ph="{...}" />
+                <marker date="1543586127939" expanded="true" signature="2505:2560" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Properties/launchSettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Orders/Schema/OrderType.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
-                <marker date="1542383987394" expanded="false" signature="6:65" ph="..." />
-                <marker date="1542383987394" expanded="true" signature="90:672" ph="{...}" />
-                <marker date="1542383987394" expanded="true" signature="144:670" ph="{...}" />
-                <marker date="1542383987394" expanded="true" signature="203:664" ph="{...}" />
+                <marker date="1543586725224" expanded="true" signature="6:79" ph="..." />
+                <marker date="1543586725224" expanded="true" signature="104:686" ph="{...}" />
+                <marker date="1543586725224" expanded="true" signature="158:684" ph="{...}" />
+                <marker date="1543586725224" expanded="true" signature="217:678" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Orders/Schema/CustomerType.cs">
+        <entry file="file://$PROJECT_DIR$/Orders/Models/Order.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <marker date="1542383893587" expanded="false" signature="6:94" ph="..." />
-                <marker date="1542383893587" expanded="true" signature="119:470" ph="{...}" />
-                <marker date="1542383893587" expanded="true" signature="179:468" ph="{...}" />
-                <marker date="1542383893587" expanded="true" signature="215:453" ph="{...}" />
+                <marker date="1543586725248" expanded="true" signature="38:893" ph="{...}" />
+                <marker date="1543586725248" expanded="true" signature="63:891" ph="{...}" />
+                <marker date="1543586725248" expanded="true" signature="436:675" ph="{...}" />
+                <marker date="1543586725248" expanded="true" signature="732:885" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs">
+        <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersSchema.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="73" column="60" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="60" />
+            <state relative-caret-position="60">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <marker date="1542045352394" expanded="false" signature="6:302" ph="..." />
-                <marker date="1542045352394" expanded="true" signature="329:2890" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="367:2888" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="760:904" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="975:1179" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="1029:1119" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="1239:1436" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="1514:2136" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="1661:2068" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="2228:2564" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="2614:2882" ph="{...}" />
-                <marker date="1542045352394" expanded="true" signature="2741:2872" ph="{...}" />
+                <marker date="1541243532588" expanded="false" signature="6:35" ph="..." />
+                <marker date="1541243532588" expanded="true" signature="60:306" ph="{...}" />
+                <marker date="1541243532588" expanded="true" signature="115:304" ph="{...}" />
+                <marker date="1541243532588" expanded="true" signature="198:289" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/public/bundle.js">
+        <entry file="file://$PROJECT_DIR$/Orders/Schema/OrderStatusesEnum.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+            <state relative-caret-position="105">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1541171453996" expanded="false" signature="6:41" ph="..." />
+                <marker date="1541171453996" expanded="true" signature="66:652" ph="{...}" />
+                <marker date="1541171453996" expanded="true" signature="126:650" ph="{...}" />
+                <marker date="1541171453996" expanded="true" signature="167:644" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -180,7 +182,7 @@
         <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <marker date="1542381061294" expanded="true" signature="56:158" ph="{...}" />
                 <marker date="1542381061294" expanded="true" signature="94:156" ph="{...}" />
@@ -192,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersQuery.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <marker date="1541171751730" expanded="false" signature="6:43" ph="..." />
                 <marker date="1541171751730" expanded="true" signature="68:345" ph="{...}" />
@@ -204,30 +206,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Program.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Orders/Services/OrderService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="362">
+              <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
               <folding>
-                <marker date="1542042992502" expanded="false" signature="6:255" ph="..." />
-                <marker date="1542042992502" expanded="true" signature="282:759" ph="{...}" />
-                <marker date="1542042992502" expanded="true" signature="309:757" ph="{...}" />
-                <marker date="1542042992502" expanded="true" signature="362:751" ph="{...}" />
+                <marker date="1543586725236" expanded="false" signature="6:143" ph="..." />
+                <marker date="1543586725236" expanded="true" signature="169:2709" ph="{...}" />
+                <marker date="1543586725236" expanded="true" signature="217:2555" ph="{...}" />
+                <marker date="1543586725236" expanded="true" signature="320:2322" ph="{...}" />
+                <marker date="1543586725236" expanded="true" signature="2591:2702" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs">
+        <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
-                <marker date="1542042992484" expanded="false" signature="6:46" ph="..." />
-                <marker date="1542042992484" expanded="true" signature="73:257" ph="{...}" />
-                <marker date="1542042992484" expanded="true" signature="108:255" ph="{...}" />
+                <marker date="1543580607187" expanded="false" signature="6:255" ph="..." />
+                <marker date="1543580607187" expanded="true" signature="282:759" ph="{...}" />
+                <marker date="1543580607187" expanded="true" signature="309:757" ph="{...}" />
+                <marker date="1543580607187" expanded="true" signature="362:751" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -238,6 +242,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Gra</find>
+      <find>Now listening on:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,17 +262,17 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D9AEC23-E05D-4A5A-9DE2-CF4369926303/c1/8d91c8d4/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C7292FD-6C98-4D94-853A-48CCA4EEEE57/a5/f3657d86/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26DB3729-E4E7-408B-9354-DCD741D492D0/50/e6f38ff7/UseMiddlewareExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2062CB8-486D-4537-88CD-96B6ABFFB7F6/c0/5ede744a/GraphQLBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B47B422-BC4C-4615-BBDE-BE1DF9B21B0D/29/3f4f1940/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyGraphQlServer/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyGraphQlServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4789AA4-0768-4639-8A79-48D3576DF71D/fb/87bd1c55/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/e4/25bb0ae4/Guid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orders/InputValidationRule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orders/obj/Debug/netcoreapp2.0/Orders.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E13071FD-069D-49CB-AE65-3A2AD7EC8646/6a/6fc1c716/IDocumentExecuter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B47B422-BC4C-4615-BBDE-BE1DF9B21B0D/13/08ed5a40/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orders/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orders/Services/CustomerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Orders/Models/Order.cs" root0="FORCE_HIGHLIGHTING" />
@@ -278,20 +283,22 @@
         <option value="$PROJECT_DIR$/Orders/Class1.cs" />
         <option value="$PROJECT_DIR$/Orders/Models/customer.cs" />
         <option value="$PROJECT_DIR$/Orders/Models/Customer.cs" />
-        <option value="$PROJECT_DIR$/Orders/Models/Order.cs" />
         <option value="$PROJECT_DIR$/Orders/Schema/OrderStatusesEnum.cs" />
         <option value="$PROJECT_DIR$/Orders/Schema/OrdersQuery.cs" />
         <option value="$PROJECT_DIR$/Orders/Schema/OrdersSchema.cs" />
         <option value="$PROJECT_DIR$/MyGraphQlServer/MyGraphQlServer.csproj" />
-        <option value="$PROJECT_DIR$/MyGraphQlServer/Program.cs" />
         <option value="$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs" />
-        <option value="$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" />
         <option value="$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs" />
         <option value="$PROJECT_DIR$/Orders/Services/CustomerService.cs" />
-        <option value="$PROJECT_DIR$/Orders/Services/OrderService.cs" />
-        <option value="$PROJECT_DIR$/MyGraphQlServer/Startup.cs" />
         <option value="$PROJECT_DIR$/Orders/Schema/CustomerType.cs" />
+        <option value="$PROJECT_DIR$/MyGraphQlServer/Program.cs" />
+        <option value="$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D9AEC23-E05D-4A5A-9DE2-CF4369926303/c1/8d91c8d4/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/MyGraphQlServer/Startup.cs" />
+        <option value="$PROJECT_DIR$/MyGraphQlServer/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Orders/Schema/OrderType.cs" />
+        <option value="$PROJECT_DIR$/Orders/Models/Order.cs" />
+        <option value="$PROJECT_DIR$/Orders/Services/OrderService.cs" />
       </list>
     </option>
   </component>
@@ -348,18 +355,20 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="public" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SDK" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Orders" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="MyGraphQlServer" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Orders" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -384,7 +393,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examples/src/AspNetCoreCustom/AspNetCoreCustom.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examples/src/AspNetCore/AspNetCore.sln" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -440,7 +449,8 @@
       <workItem from="1541343228375" duration="2426000" />
       <workItem from="1541777035263" duration="3758000" />
       <workItem from="1542042450598" duration="4471000" />
-      <workItem from="1542373612742" duration="10041000" />
+      <workItem from="1542373612742" duration="10875000" />
+      <workItem from="1543578867853" duration="6072000" />
     </task>
     <task id="LOCAL-00001" summary="added a graphql middle ware server">
       <created>1541781702022</created>
@@ -456,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541782568891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="got graph ql to work">
+      <created>1542384368733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542384368733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43353000" />
+    <option name="totallyTimeSpent" value="50259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,17 +489,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Stacktrace" order="0" weight="0.32913843" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28886756" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28886756" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.39827254" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -498,7 +515,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.26172706" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -513,7 +530,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added a graphql middle ware server" />
     <MESSAGE value="upgraded the version of asp" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgraded the version of asp" />
+    <MESSAGE value="got graph ql to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="got graph ql to work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D9AEC23-E05D-4A5A-9DE2-CF4369926303/c1/8d91c8d4/ServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B47B422-BC4C-4615-BBDE-BE1DF9B21B0D/13/08ed5a40/IServiceCollection.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -583,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Models/Customer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E13071FD-069D-49CB-AE65-3A2AD7EC8646/6a/6fc1c716/IDocumentExecuter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -604,29 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrderStatusesEnum.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1541171453996" expanded="false" signature="6:41" ph="..." />
-            <marker date="1541171453996" expanded="true" signature="66:652" ph="{...}" />
-            <marker date="1541171453996" expanded="true" signature="126:650" ph="{...}" />
-            <marker date="1541171453996" expanded="true" signature="167:644" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Orders/InputValidationRule.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <marker date="1541781460265" expanded="true" signature="45:277" ph="{...}" />
-            <marker date="1541781460265" expanded="true" signature="102:275" ph="{...}" />
-            <marker date="1541781460265" expanded="true" signature="172:269" ph="{...}" />
-            <marker date="1541781460265" expanded="true" signature="229:257" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,158 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Models/Order.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <marker date="1541171454007" expanded="true" signature="38:880" ph="{...}" />
-            <marker date="1541171454007" expanded="true" signature="63:878" ph="{...}" />
-            <marker date="1541171454007" expanded="true" signature="434:662" ph="{...}" />
-            <marker date="1541171454007" expanded="true" signature="719:872" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Orders/Services/CustomerService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <marker date="1542381623016" expanded="false" signature="6:167" ph="..." />
-            <marker date="1542381623016" expanded="true" signature="193:1425" ph="{...}" />
-            <marker date="1542381623016" expanded="true" signature="247:1218" ph="{...}" />
-            <marker date="1542381623016" expanded="true" signature="362:886" ph="{...}" />
-            <marker date="1542381623016" expanded="true" signature="1257:1423" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Services/OrderService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <marker date="1542381726311" expanded="false" signature="6:143" ph="..." />
-            <marker date="1542381726311" expanded="true" signature="169:2693" ph="{...}" />
-            <marker date="1542381726311" expanded="true" signature="217:2539" ph="{...}" />
-            <marker date="1542381726311" expanded="true" signature="320:2322" ph="{...}" />
-            <marker date="1542381726311" expanded="true" signature="2575:2686" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersSchema.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1541243532588" expanded="false" signature="6:35" ph="..." />
-            <marker date="1541243532588" expanded="true" signature="60:306" ph="{...}" />
-            <marker date="1541243532588" expanded="true" signature="115:304" ph="{...}" />
-            <marker date="1541243532588" expanded="true" signature="198:289" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <marker date="1542381895338" expanded="false" signature="6:516" ph="..." />
-            <marker date="1542381895338" expanded="true" signature="543:2390" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="570:2388" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="585:800" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-            <marker date="1542381895338" expanded="true" signature="867:1678" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="1896:2382" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="1943:2064" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="2147:2299" ph="{...}" />
-            <marker date="1542381895338" expanded="true" signature="2230:2285" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1542042992484" expanded="false" signature="6:46" ph="..." />
-            <marker date="1542042992484" expanded="true" signature="73:257" ph="{...}" />
-            <marker date="1542042992484" expanded="true" signature="108:255" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <marker date="1542381061294" expanded="true" signature="56:158" ph="{...}" />
-            <marker date="1542381061294" expanded="true" signature="94:156" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/public/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="73" column="60" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="60" />
-          <folding>
-            <marker date="1542045352394" expanded="false" signature="6:302" ph="..." />
-            <marker date="1542045352394" expanded="true" signature="329:2890" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="367:2888" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="760:904" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="975:1179" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="1029:1119" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="1239:1436" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="1514:2136" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="1661:2068" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="2228:2564" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="2614:2882" ph="{...}" />
-            <marker date="1542045352394" expanded="true" signature="2741:2872" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <marker date="1542042992502" expanded="false" signature="6:255" ph="..." />
-            <marker date="1542042992502" expanded="true" signature="282:759" ph="{...}" />
-            <marker date="1542042992502" expanded="true" signature="309:757" ph="{...}" />
-            <marker date="1542042992502" expanded="true" signature="362:751" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersQuery.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1541171751730" expanded="false" signature="6:43" ph="..." />
-            <marker date="1541171751730" expanded="true" signature="68:345" ph="{...}" />
-            <marker date="1541171751730" expanded="true" signature="125:343" ph="{...}" />
-            <marker date="1541171751730" expanded="true" signature="180:328" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,11 +654,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/public/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="71426" column="45" lean-forward="true" selection-start-line="71426" selection-start-column="45" selection-end-line="71426" selection-end-column="45" />
           <folding>
-            <marker date="1542382535238" expanded="true" signature="0:299" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1542382535238" expanded="true" signature="324:469" ph="{...}" />
-            <marker date="1542382535238" expanded="true" signature="395:467" ph="{...}" />
-            <marker date="1542382535238" expanded="true" signature="451:463" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Models/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <marker date="1541166954495" expanded="false" signature="6:38" ph="..." />
+            <marker date="1541166954495" expanded="true" signature="63:438" ph="{...}" />
+            <marker date="1541166954495" expanded="true" signature="91:436" ph="{...}" />
+            <marker date="1541166954495" expanded="true" signature="221:299" ph="{...}" />
+            <marker date="1541166954495" expanded="true" signature="354:421" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -839,15 +697,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D9AEC23-E05D-4A5A-9DE2-CF4369926303/c1/8d91c8d4/ServiceCollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2062CB8-486D-4537-88CD-96B6ABFFB7F6/c0/5ede744a/GraphQLBuilderExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLMiddleware.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/GraphQLUserContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <marker date="1542381061294" expanded="true" signature="56:158" ph="{...}" />
+            <marker date="1542381061294" expanded="true" signature="94:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1543580607187" expanded="false" signature="6:255" ph="..." />
+            <marker date="1543580607187" expanded="true" signature="282:759" ph="{...}" />
+            <marker date="1543580607187" expanded="true" signature="309:757" ph="{...}" />
+            <marker date="1543580607187" expanded="true" signature="362:751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <marker date="1543586127939" expanded="true" signature="6:552" ph="..." />
+            <marker date="1543586127939" expanded="true" signature="579:2581" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="606:2579" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="621:836" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1543586127939" expanded="true" signature="903:1999" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="1754:1881" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="2217:2573" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="2264:2385" ph="{...}" />
+            <marker date="1543586127939" expanded="true" signature="2505:2560" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersSchema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1541243532588" expanded="false" signature="6:35" ph="..." />
+            <marker date="1541243532588" expanded="true" signature="60:306" ph="{...}" />
+            <marker date="1541243532588" expanded="true" signature="115:304" ph="{...}" />
+            <marker date="1541243532588" expanded="true" signature="198:289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrdersQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <marker date="1541171751730" expanded="false" signature="6:43" ph="..." />
+            <marker date="1541171751730" expanded="true" signature="68:345" ph="{...}" />
+            <marker date="1541171751730" expanded="true" signature="125:343" ph="{...}" />
+            <marker date="1541171751730" expanded="true" signature="180:328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Schema/OrderStatusesEnum.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1541171453996" expanded="false" signature="6:41" ph="..." />
+            <marker date="1541171453996" expanded="true" signature="66:652" ph="{...}" />
+            <marker date="1541171453996" expanded="true" signature="126:650" ph="{...}" />
+            <marker date="1541171453996" expanded="true" signature="167:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6D85C908-D676-49C8-A469-C19A74522F33/e4/25bb0ae4/Guid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="678" column="27" selection-start-line="678" selection-start-column="27" selection-end-line="678" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Orders/Schema/OrderType.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <marker date="1542383987394" expanded="false" signature="6:65" ph="..." />
-            <marker date="1542383987394" expanded="true" signature="90:672" ph="{...}" />
-            <marker date="1542383987394" expanded="true" signature="144:670" ph="{...}" />
-            <marker date="1542383987394" expanded="true" signature="203:664" ph="{...}" />
+            <marker date="1543586725224" expanded="true" signature="6:79" ph="..." />
+            <marker date="1543586725224" expanded="true" signature="104:686" ph="{...}" />
+            <marker date="1543586725224" expanded="true" signature="158:684" ph="{...}" />
+            <marker date="1543586725224" expanded="true" signature="217:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraphQlServer/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Models/Order.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1543586725248" expanded="true" signature="38:893" ph="{...}" />
+            <marker date="1543586725248" expanded="true" signature="63:891" ph="{...}" />
+            <marker date="1543586725248" expanded="true" signature="436:675" ph="{...}" />
+            <marker date="1543586725248" expanded="true" signature="732:885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orders/Services/OrderService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+          <folding>
+            <marker date="1543586725236" expanded="false" signature="6:143" ph="..." />
+            <marker date="1543586725236" expanded="true" signature="169:2709" ph="{...}" />
+            <marker date="1543586725236" expanded="true" signature="217:2555" ph="{...}" />
+            <marker date="1543586725236" expanded="true" signature="320:2322" ph="{...}" />
+            <marker date="1543586725236" expanded="true" signature="2591:2702" ph="{...}" />
           </folding>
         </state>
       </provider>
